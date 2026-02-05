@@ -99,8 +99,8 @@ df, model, vectorizer, preprocess, f1_score_value = load_everything()
 # ======================================
 st.markdown("""
 # 🧠 AI Sentiment Intelligence Platform  
+## By: Zainul Abedeen
 ### Fast • Stable • Enterprise-Grade NLP Dashboard
-# By: ZAINUL ABEDEEN
 """)
 st.markdown("---")
 
@@ -219,4 +219,5 @@ with tab3:
 
     st.subheader("📈 Ratings vs Sentiment")
     st.scatter_chart(df[["Ratings", "Sentiment"]])
+
 
